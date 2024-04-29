@@ -1,2 +1,29 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import { Geolocation } from '@capacitor/geolocation';
+
+    /**
+	 * @type {import("@capacitor/geolocation").Position | null}
+	 */
+    let loc = null;
+    async function getCurrentPosition(){
+        const res = await Geolocation.getCurrentPosition()
+        loc = res
+    }
+</script>
+
+<div>
+    <h1>Geolocation</h1>
+    <p>Your location is:</p>
+    <p>Latitude: {loc?.coords.latitude}</p>
+    <p>Longitude: {loc?.coords.longitude}</p>
+
+    <button on:click={getCurrentPosition}>
+        Get Current Location
+    </button>
+</div>
+
+<style>
+    div {
+        padding-top: 50px;
+    }
+</style>
