@@ -1,0 +1,7 @@
+{
+  "name": "isohel",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
