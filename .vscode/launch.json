@@ -1,9 +1,0 @@
- {
-    "configurations": [
-    {
-        "env": {
-            "ANDROID_SDK_ROOT": "/home/wally/Android/Sdk"
-        }
-    }
-    ]
- }
