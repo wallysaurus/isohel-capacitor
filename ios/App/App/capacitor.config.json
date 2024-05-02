@@ -1,0 +1,8 @@
+{
+	"appId": "me.wally.isohel",
+	"appName": "isohel",
+	"webDir": "dist",
+	"packageClassList": [
+		"GeolocationPlugin"
+	]
+}

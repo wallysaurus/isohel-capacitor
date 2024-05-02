@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+	<head style="padding:0px; margin:0px;">
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="initial-scale=1,user-scalable=no, width=device-width, height=device-height, viewport-fit=cover"/>
+		
+		<link href="./_app/immutable/assets/2.CImyTXR-.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.DISHVcbr.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.Ck7qyt8W.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.BvLojk_z.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.D_SWZRwH.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.D0EkO4H6.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.D67euImQ.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.RknqvFY6.js">
+	</head>
+	<body style="margin:0px;" data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <button style="position:fixed; top:50vh; left: calc(50vw - 50px);" data-svelte-h="svelte-hkqt64">Create Circle</button> <svg viewBox="0 0 undefined undefined" xmlns="http://www.w3.org/2000/svg"></svg> 
+			
+			<script>
+				{
+					__sveltekit_15mj51y = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.DISHVcbr.js"),
+						import("./_app/immutable/entry/app.D_SWZRwH.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
+
+<style>
+	* {
+
+		/* disable text selection (svg icons are also text...) */
+		-webkit-user-select: none;
+		/* Safari */
+		-ms-user-select: none;
+		/* IE 10 and IE 11 */
+		user-select: none;
+		/* Standard syntax */
+
+		/* preventing the long press context menu, https://stackoverflow.com/a/56866766/3022127 */
+		-webkit-touch-callout: none !important;
+		-webkit-user-select: none !important;
+
+		/* preventing iOS tap highlight */
+		-webkit-tap-highlight-color: transparent;
+
+		/* Disable browser handling of all panning and zooming gestures, except for regular scrolling */
+		touch-action: pan-y;
+	}
+</style>
