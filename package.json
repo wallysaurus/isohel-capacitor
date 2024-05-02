@@ -12,7 +12,9 @@
     "lint": "prettier --check . && eslint .",
     "format": "prettier --write .",
     "ionic:build": "npm run build",
-    "ionic:serve": "npm run dev"
+    "ionic:serve": "npm run dev",
+    "ionic:run:android": "export ANDROID_SDK_ROOT=\"/home/wally/Android/Sdk\" &&npx cap run android",
+    "ionic:run:ios": "npx cap run ios"
   },
   "devDependencies": {
     "@playwright/test": "^1.28.1",
