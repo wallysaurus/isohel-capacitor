@@ -1,8 +1,5 @@
 .DS_Store
 node_modules
-ios
-android
-dist
 /build
 /.svelte-kit
 /package
