@@ -28,7 +28,7 @@
 <!-- Blur Filter -->
 <div />
 
-<svg class="noise" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+<svg class="noise" viewBox={`0 0 ${innerWidth} ${innerHeight}`} xmlns="http://www.w3.org/2000/svg">
     <!-- Define the filter inside the SVG that is guaranteed to span the whole viewport -->
     <defs>
         <filter id="noiseFilter">
@@ -39,7 +39,7 @@
             </feComponentTransfer>
         </filter>
         <mask id="circleMask">
-            <radialGradient id="grad" cx="50%" cy="50%" r="15%" fx="50%" fy="50%">
+            <radialGradient id="grad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
                 <stop offset="10%" stop-color="white" />
                 <stop offset="100%" stop-color="black" />
             </radialGradient>
@@ -47,7 +47,8 @@
         </mask>
     </defs>
     <!-- Example circle to demonstrate mask and filter -->
-    <circle cx="50%" cy="50%" r="50" fill="red" mask="url(#circleMask)" filter="url(#noiseFilter)" />
+    <circle cx="100%" cy="100%" r="100%" fill="red" mask="url(#circleMask)" filter="url(#noiseFilter)" />
+    <!-- <rect x="0" y="0" width="100%" height="100%" fill="url(#grad)" /> -->
 </svg>
 
 
@@ -64,9 +65,10 @@
         position: fixed;
         top: 0;
         left: 0;
+        background-image: url('path_to_your_noise_texture.png');
+        mask-image: radial-gradient(circle, transparent, black 70%);
         filter: url(#noiseFilter);
         mask: url(#circleMask);
         opacity: 0.25;
-        z-index: 10;
     }
 </style>

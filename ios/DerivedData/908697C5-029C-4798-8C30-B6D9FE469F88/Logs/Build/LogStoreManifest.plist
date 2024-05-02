@@ -6,7 +6,7 @@
 	<integer>11</integer>
 	<key>logs</key>
 	<dict>
-		<key>1B57EAE6-7099-4E1E-981B-7D4D2CB4B46F</key>
+		<key>3BE9F565-56C9-4598-B494-6BEF8B9687FC</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>1B57EAE6-7099-4E1E-981B-7D4D2CB4B46F.xcactivitylog</string>
+			<string>3BE9F565-56C9-4598-B494-6BEF8B9687FC.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -40,13 +40,55 @@
 			<key>signature</key>
 			<string>Building workspace App with scheme App and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>736361663.27500701</real>
+			<real>736373562.37752998</real>
 			<key>timeStoppedRecording</key>
-			<real>736361665.18308997</real>
+			<real>736373565.11072397</real>
 			<key>title</key>
 			<string>Building workspace App with scheme App and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>1B57EAE6-7099-4E1E-981B-7D4D2CB4B46F</string>
+			<string>3BE9F565-56C9-4598-B494-6BEF8B9687FC</string>
+		</dict>
+		<key>BE8CC862-1F25-4740-880E-AE807C359C55</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BE8CC862-1F25-4740-880E-AE807C359C55.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>App project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>App</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace App with scheme App and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>736365908.832214</real>
+			<key>timeStoppedRecording</key>
+			<real>736365911.139521</real>
+			<key>title</key>
+			<string>Building workspace App with scheme App and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>BE8CC862-1F25-4740-880E-AE807C359C55</string>
 		</dict>
 	</dict>
 </dict>
