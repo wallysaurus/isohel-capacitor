@@ -1,24 +1,16 @@
 <script lang="ts">
     import { gsap } from 'gsap';
     import { onMount } from 'svelte';
-    import Color from 'colorjs.io';
 
     export let innerWidth : number;
     export let innerHeight : number;
-    export let attribute : any;
+    export let data : any;
     let circle : any;
 
     onMount(() => {
-        console.log(attribute.radius.y)
+        console.log(data.radius.y)
         //if (circle) { move(); }
     });
-
-    function getRandColor() {
-        let colors = ['#fc0303', '#fc6b03', '#fcd303', '#a1fc03', '#03fc3d', '#03fcce', '#03adfc', '#0320fc', '#6203fc', '#8c03fc', '#e303fc', '#fc03b1'];
-        let color = new Color(colors[Math.floor(Math.random()*colors.length)]).to("hsl");
-        color.s = color.s * 0.5;
-        return color.toString();
-    }
     
     // function move() {
     //     const newPos = {
@@ -54,9 +46,9 @@
     // }
 </script>
 
-<circle bind:this={circle} cx={innerWidth * (attribute.position.x + attribute.radius.x)} cy={innerHeight * (attribute.position.y + attribute.radius.y)} r={innerWidth * attribute.radius.x}
+<circle bind:this={circle} cx={innerWidth * (data.position.x + data.radius.x)} cy={innerHeight * (data.position.y + data.radius.y)} r={innerWidth * data.radius.x}
     style={`
-        fill: ${attribute.color};
+        fill: ${data.color};
         stroke: 'none';
     `}
 />

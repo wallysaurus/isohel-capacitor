@@ -20,7 +20,7 @@
 
 <svg viewBox={`0 0 ${innerWidth} ${innerHeight}`} xmlns="http://www.w3.org/2000/svg">
     {#each data as entry}
-        <Circle attribute={entry} innerWidth={innerWidth} innerHeight={innerHeight} />
+        <Circle data={entry} innerWidth={innerWidth} innerHeight={innerHeight} />
     {/each}
 </svg>
 
