@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">isohel</string>
-    <string name="title_activity_main">isohel</string>
-    <string name="package_name">me.wally.isohel</string>
-    <string name="custom_url_scheme">me.wally.isohel</string>
-</resources>
