@@ -9,8 +9,8 @@ import Color from 'colorjs.io';
 // figure4: 264.22, 94.27 [#00FF66]
 // figure5: -107.78, 658.27 [#FF004C]
 const radius = {
-    x: (335 / 2) / 400,
-    y: (335 / 2) / 835
+    x: (351 / 2) / 400,
+    y: (351 / 2) / 835
 }
 export const circleData = writable([
     {
